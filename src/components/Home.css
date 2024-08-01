@@ -22,3 +22,31 @@
   font-size: 1.5rem;
   font-weight: bold;
 }
+/* src/components/Home.css */
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.resume-container {
+  margin-top: 20px;
+}
+
+.resume-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 18px;
+  color: rgb(186, 30, 79); /* Customize the color */
+  text-decoration: none;
+  font-size: larger;
+}
+
+.resume-link:hover {
+  color: #0056b3; /* Customize hover color */
+  text-decoration: underline;
+}
+
+.resume-icon {
+  margin-right: 8px;
+  font-size: 24px; /* Adjust icon size */
+}
