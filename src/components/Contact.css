@@ -1,7 +1,8 @@
 /* src/components/Contact.css */
 .contact {
   padding: 2rem;
-  background-image: url('C:\Users\TAUSEEF\Desktop\Profile\frontend\public\images\pexels-divinetechygirl-1181675.jpg'); /* Replace with the path to your image */
+ /* Replace with the path to your image */
+ background-color: aquamarine;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
