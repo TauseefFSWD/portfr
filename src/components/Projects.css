@@ -1,0 +1,50 @@
+/* src/components/Projects.css */
+.projects {
+  padding: 2rem;
+  background-color: #f5f5dc;
+  text-align: center;
+  
+}
+
+.projects h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: rgb(186, 30, 79);
+}
+
+.project-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  color: rgb(186, 30, 79);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 1rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+  font-size: large;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #666;
+}

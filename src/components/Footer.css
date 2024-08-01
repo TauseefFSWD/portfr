@@ -1,0 +1,29 @@
+.footer {
+    background-color: #b44e4e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .social-links {
+    margin-bottom: 1rem;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 1rem;
+    font-size: 2rem;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #1da1f2; /* You can change this color to match your design */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.875rem;
+  }

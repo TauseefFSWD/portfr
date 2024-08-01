@@ -1,0 +1,24 @@
+/* src/components/Home.css */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('C:\Users\TAUSEEF\Desktop\Profile\frontend\public\images/web-developer-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: rgb(186, 30, 79); /* Ensure text is readable over the image */
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.typing-effect {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

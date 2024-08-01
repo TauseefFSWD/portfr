@@ -1,0 +1,32 @@
+
+.about {
+    
+    padding:  1rem;
+    background-color: #a7dce068;
+   
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    color: rgb(186, 30, 79); 
+    text-align: center;
+  }
+  .about h3 {
+    font-size: 1.5rem;
+    color:rgb(186, 30, 79); 
+    text-decoration: solid;
+  }
+  .about p {
+    font-size: 1.25rem;
+  }
+
+
+
+
+
+
+
+
+
+
+

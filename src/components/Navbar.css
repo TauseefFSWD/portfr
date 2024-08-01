@@ -1,0 +1,62 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #b44e4e;
+  color: white;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s, font-size 0.3s;
+}
+
+.navbar a:hover {
+  color: #00070b; /* Change to your preferred color */
+  font-size: 1.2rem; /* Increase font size on hover */
+}
+/* src/components/Navbar.css */
+.navbar {
+  background-color: #b44e4e;
+  padding: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.navbar li {
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #8e5454;
+}
